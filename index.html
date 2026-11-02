@@ -548,27 +548,6 @@
     <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-            <div class="row mb-4">
-                <div class="col-lg-6"><div class="card"><div class="card-body">
-                    <h5 class="text-danger">CryoVizWeb</h5>
-                    <p>Browser-based biological and medical-image visualization with 2D/3D volume rendering, dataset management, annotations and saved views. Technologies include TypeScript, Next.js, React, VTK.js, Three.js and Azure Blob Storage.</p>
-                    <a href="https://github.com/biaghosh/CryoViz_V2" rel="noopener noreferrer">View repository</a>
-                </div></div></div>
-                <div class="col-lg-6"><div class="card"><div class="card-body">
-                    <h5 class="text-danger">QR Contact Capture</h5>
-                    <p>Browser application combining camera-based QR scanning, editable contact information and badge-photo capture with a Google Sheets workflow through Apps Script.</p>
-                    <a href="https://github.com/biaghosh/QrWebApp" rel="noopener noreferrer">View repository</a>
-                </div></div></div>
-                <div class="col-lg-6"><div class="card"><div class="card-body">
-                    <h5 class="text-danger">WebViewer</h5>
-                    <p>Medical-image web application using Python, Flask, MongoDB and JavaScript/WebGL visualization to explore biological image volumes.</p>
-                    <a href="https://github.com/biaghosh/WebViewer" rel="noopener noreferrer">View repository</a>
-                </div></div></div>
-                <div class="col-lg-6"><div class="card"><div class="card-body">
-                    <h5 class="text-danger">JobAgent</h5>
-                    <p>Personal job-search platform developed incrementally with AI assistance. Implemented components include structured YAML profile loading, Pydantic validation, unit tests and company/role reference data.</p>
-                </div></div></div>
-            </div>
             <div class="portfolio">
                 <div class="filters">
                     <a href="#" data-filter=".new" class="active">
@@ -584,10 +563,67 @@
                         Others
                     </a> -->
                 </div>
-                <div class="portfolio-container"> 
+                <div class="portfolio-container">
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">CryoVizWeb</h6>
+                            <p class="subtitle">Browser-based biological-image visualization with 2D/3D volume rendering, dataset management, annotations and saved views. TypeScript, Next.js, React, VTK.js, Three.js and Azure Blob Storage.</p>
+                            <a href="https://github.com/biaghosh/CryoViz_V2" rel="noopener noreferrer">View repository</a>
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 ai new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">TissueRem Aim 1</h6>
+                            <p class="subtitle">TensorFlow/Keras U-Net pipeline for preclinical organ segmentation, with augmentation, checkpoint recovery, early stopping and multi-GPU training support. Related Slurm/HPC scripts support GPU job submission and continuation.</p>
+                            
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">CryoViz / TissueRem Data Harmonizer</h6>
+                            <p class="subtitle">Python imaging-data utility converting organ-segmentation TIFF masks into NIfTI label volumes, including reorientation, crop/pad and spatial metadata using NumPy and SimpleITK. Data preparation rather than an AI model or web application.</p>
+                            
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">WebViewer 2.0</h6>
+                            <p class="subtitle">React/TypeScript high-resolution biological-image viewer using Next.js, OpenSeadragon and Deep Zoom Images. Supports dataset, slice, modality and ROI selection, zoom, fullscreen and display controls.</p>
+                            
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">QR Contact Capture</h6>
+                            <p class="subtitle">Browser application combining camera-based QR scanning, editable contacts and badge-photo capture with a Google Sheets workflow through Apps Script.</p>
+                            <a href="https://github.com/biaghosh/QrWebApp" rel="noopener noreferrer">View repository</a>
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">WebViewer</h6>
+                            <p class="subtitle">Medical-image web application using Python, Flask, MongoDB and JavaScript/WebGL visualization to explore biological image volumes.</p>
+                            <a href="https://github.com/biaghosh/WebViewer" rel="noopener noreferrer">View repository</a>
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">JobAgent</h6>
+                            <p class="subtitle">Personal job-search platform developed incrementally with AI assistance. Implemented components include structured YAML profile loading, Pydantic validation, unit tests and company/role reference data. AI-assisted development does not imply an implemented AI matching engine.</p>
+                            
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item card"><div class="card-body">
+                            <h6 class="text-danger">Personal Website</h6>
+                            <p class="subtitle">Template-based portfolio website maintained with HTML, CSS and JavaScript to present professional experience, selected projects and publications.</p>
+                            <a href="https://github.com/adi-ghosh/adi-ghosh.github.io" rel="noopener noreferrer">View repository</a>
+                        </div></div>
+                    </div>
+ 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/Web-Project1-MighTASK.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="assets/imgs/Web-Project1-MighTASK.jpg" class="img-fluid" alt="Project preview">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/Web-Project1-MighTASK.jpg"></a>
                                 <div class="text-holder">
@@ -599,7 +635,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 ai new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/ML-Project2-AdversaGen.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="assets/imgs/ML-Project2-AdversaGen.jpg" class="img-fluid" alt="Project preview">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/ML-Project2-AdversaGen.jpg"></a>
                                 <div class="text-holder">
@@ -611,7 +647,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 ai new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/ML-Project1-DAE.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <img src="assets/imgs/ML-Project1-DAE.jpg" class="img-fluid" alt="Project preview">                         
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/ML-Project1-DAE.jpg"></a>
                                 <div class="text-holder">
@@ -623,7 +659,7 @@
                     </div> 
                     <div class="col-md-6 col-lg-4 ai new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/ML-Project3-BookPopularityPredictor.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <img src="assets/imgs/ML-Project3-BookPopularityPredictor.jpg" class="img-fluid" alt="Project preview">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/ML-Project3-BookPopularityPredictor.jpg"></a>
                                 <div class="text-holder">
@@ -636,7 +672,7 @@
 
                     <!-- <div class="col-md-6 col-lg-4 advertising"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Project preview">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
                                 <div class="text-holder">
@@ -648,7 +684,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Project preview">  
                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
                                 <div class="text-holder">
@@ -660,7 +696,7 @@
                     </div> -->
                     <!-- <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Project preview">       
                            <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
                                 <div class="text-holder">
@@ -672,7 +708,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 advertising new"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Project preview">            
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
                                 <div class="text-holder">
@@ -684,7 +720,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Project preview">                        
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
                                 <div class="text-holder">
@@ -696,7 +732,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Project preview">  
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
                                 <div class="text-holder">
@@ -708,7 +744,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Project preview">   
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
                                 <div class="text-holder">
@@ -720,7 +756,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Project preview">                      
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
                                 <div class="text-holder">
@@ -732,7 +768,7 @@
                     </div>  -->
                     <!-- <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Project preview">          
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
                                 <div class="text-holder">
